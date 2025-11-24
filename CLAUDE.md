@@ -1,6 +1,7 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working
+with code in this repository.
 
 ## リポジトリ概要
 
@@ -30,6 +31,7 @@ pre-commit run --all-files
 PRとmainブランチへのpushで自動的にpre-commitチェックが実行されます。
 
 チェック内容：
+
 - 汎用: trailing whitespace, ファイル末尾改行, YAML/JSON構文
 - Python: black, isort, flake8
 - Markdown: markdownlint
