@@ -1,4 +1,4 @@
-## このリポジトリについて
+# このリポジトリについて
 
 かわふちの定期勉強会ようのリポジトリです。
 
@@ -50,14 +50,13 @@
 
 続けながら自然にブラッシュアップする
 
-
-
 ## 勉強会のテーマについて
+
 - かわふちの独断と偏見でテーマを決める
 - 参加者のアンケートで決める
 
+## 勉強会内容
 
-## 勉強会内容　
 |回数|内容|
 |--|--|
 |1|[git hubについて](https://github.com/kawafuchieirin/regular-study/issues/1)|
@@ -65,6 +64,6 @@
 
 ### このリポジトリのクローンコマンド
 
-```
+```bash
 git clone https://github.com/kawafuchieirin/regular-study.git
 ```
