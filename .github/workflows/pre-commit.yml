@@ -6,6 +6,22 @@ on:
 
 jobs:
   pre-commit:
-    uses: kawafuchieirin/regular-study/.github/workflows/pre-commit.yml@main
-    with:
-      install_markdownlint: true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.1
