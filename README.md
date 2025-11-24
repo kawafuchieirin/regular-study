@@ -59,7 +59,7 @@
 ## 勉強会内容　
 |回数|内容|
 |--|--|
-|1|[git hubについて(https://bizcodex.slack.com/archives/C08QJV8U7HR/p1763873419341649)|
+|1|[git hubについて](https://bizcodex.slack.com/archives/C08QJV8U7HR/p1763873419341649)|
 |2|開発環境について|
 
 
