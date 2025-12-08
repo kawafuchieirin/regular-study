@@ -75,3 +75,7 @@ git clone https://github.com/kawafuchieirin/regular-study.git
 毎回勉強会の内容は録画しております。
 会員ページにアーカイブされますのでそちらから確認できます。
 
+
+今後の勉強会のスケジュール(仮)
+https://github.com/kawafuchieirin/regular-study/issues/16#issue-3703585877
+
