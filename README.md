@@ -2,9 +2,11 @@
 
 かわふちの定期勉強会ようのリポジトリです。
 **⚠️パブリックのリポジトリのため個人の情報などはpushしないでください**
+git ignoreに設定してください
+https://zenn.dev/fumi_mizu/articles/6020666fedea10
 
 
-最終更新日(2025/11/23)
+最終更新日(2025/12/8)
 
 ## 📘 勉強会のルール
 
@@ -62,7 +64,7 @@
 |回数|内容|
 |--|--|
 |1|[git hubについて](https://github.com/kawafuchieirin/regular-study/issues/1)|
-|2|開発環境について|
+|2| gitの振り返り|
 
 ### このリポジトリのクローンコマンド
 
@@ -77,5 +79,6 @@ git clone https://github.com/kawafuchieirin/regular-study.git
 
 
 今後の勉強会のスケジュール(仮)
-https://github.com/kawafuchieirin/regular-study/issues/16#issue-3703585877
+
+- https://github.com/kawafuchieirin/regular-study/issues/16#issue-3703585877
 
