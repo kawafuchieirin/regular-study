@@ -1,6 +1,6 @@
 services:
   api:
-    build: .
+    build: ./app
     ports:
       - "8000:8000"
     depends_on:
