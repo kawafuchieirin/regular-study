@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# MongoDB volume
+mongo_data/
+
+# OS
+.DS_Store
