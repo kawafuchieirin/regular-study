@@ -1,0 +1,1 @@
+../../../.claude/skills/output/SKILL.md
