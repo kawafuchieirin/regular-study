@@ -72,6 +72,10 @@ https://zenn.dev/fumi_mizu/articles/6020666fedea10
 git clone https://github.com/kawafuchieirin/regular-study.git
 ```
 
+## リリース履歴
+
+- [Releases ページ](https://github.com/kawafuchieirin/regular-study/releases)
+
 
 ## 録画について
 毎回勉強会の内容は録画しております。
@@ -81,4 +85,3 @@ git clone https://github.com/kawafuchieirin/regular-study.git
 今後の勉強会のスケジュール(仮)
 
 - https://github.com/kawafuchieirin/regular-study/issues/16#issue-3703585877
-

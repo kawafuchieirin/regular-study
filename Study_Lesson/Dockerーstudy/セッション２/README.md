@@ -27,4 +27,3 @@ docker run hello-world
 
 初めて実行する場合、`docker run hello-world`を実行すると、イメージが存在しない場合は自動的にpullされます。
 そのため、`docker pull hello-world`のステップは省略可能です。
-
