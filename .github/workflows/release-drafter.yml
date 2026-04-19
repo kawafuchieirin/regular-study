@@ -1,17 +1,15 @@
 name: Release Drafter
 
 on:
-  push:
-    branches: [main]
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [opened, reopened, synchronize, closed]
 
 permissions:
   contents: read
 
 jobs:
   autolabel:
-    if: github.event_name == 'pull_request'
+    if: github.event.action != 'closed'
     permissions:
       contents: read
       pull-requests: write
@@ -24,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   update_release_draft:
-    if: github.event_name == 'push'
+    if: github.event.action == 'closed' && github.event.pull_request.merged == true
     permissions:
       contents: write
       pull-requests: read
@@ -33,5 +31,6 @@ jobs:
       - uses: release-drafter/release-drafter@v7
         with:
           config-name: release-drafter.yml
+          commitish: refs/heads/main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
