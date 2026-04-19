@@ -36,6 +36,12 @@ PRとmainブランチへのpushで自動的にpre-commitチェックが実行さ
 - Python: black, isort, flake8
 - Markdown: markdownlint
 
+### Release Drafter
+
+- `.github/workflows/release-drafter.yml` が main への push 時に release-drafter を実行し、ドラフト Release を自動更新
+- PR タイトルを Conventional Commits（`feat:` / `fix:` / `docs:` / `chore:` など）で書くと autolabeler が自動でラベル付与
+- 設定は `.github/release-drafter.yml`。ドラフトは GitHub UI から手動で Publish してタグ発行
+
 ## 勉強会テーマの追跡
 
 各回の勉強会内容はGitHub Issuesで管理されています。新しい勉強会を追加する場合は、README.mdのテーブルにリンクを追加してください。

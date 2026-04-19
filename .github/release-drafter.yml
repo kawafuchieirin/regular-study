@@ -1,0 +1,41 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+
+version-resolver:
+  major:
+    labels: ["type: breaking"]
+  minor:
+    labels: ["type: feature"]
+  patch:
+    labels: ["type: bug", "type: maintenance", "type: docs", "type: dependencies"]
+  default: patch
+
+categories:
+  - title: "🚀 Features"
+    labels: ["type: feature"]
+  - title: "🐛 Bug Fixes"
+    labels: ["type: bug"]
+  - title: "📚 Documentation"
+    labels: ["type: docs"]
+  - title: "🧰 Maintenance"
+    labels: ["type: maintenance", "type: dependencies"]
+
+autolabeler:
+  - label: "type: feature"
+    title: ["/^feat(\\(.+\\))?:/i"]
+  - label: "type: bug"
+    title: ["/^fix(\\(.+\\))?:/i"]
+  - label: "type: docs"
+    title: ["/^docs(\\(.+\\))?:/i"]
+  - label: "type: maintenance"
+    title: ["/^(chore|refactor|style|test|ci|build)(\\(.+\\))?:/i"]
+
+change-template: "- $TITLE (#$NUMBER) @$AUTHOR"
+change-title-escapes: '\<*_&'
+
+template: |
+  ## 変更内容
+
+  $CHANGES
+
+  **Full Changelog**: $COMPARE_URL
