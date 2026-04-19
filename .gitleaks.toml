@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "detect-secrets のベースラインファイルはハッシュ値のため除外"
+paths = [
+    '''\.secrets\.baseline$''',
+]
