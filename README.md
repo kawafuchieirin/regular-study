@@ -75,6 +75,7 @@ git clone https://github.com/kawafuchieirin/regular-study.git
 ## リリース履歴
 
 - [Releases ページ](https://github.com/kawafuchieirin/regular-study/releases)
+- [Release ワークフロー仕様](docs/release-workflow.md)
 
 
 ## 録画について
