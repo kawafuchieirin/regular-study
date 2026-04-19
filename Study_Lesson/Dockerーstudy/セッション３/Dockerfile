@@ -10,4 +10,3 @@ COPY hello.py .
 
 # コンテナ起動時に実行するコマンド
 CMD ["python", "hello.py"]
-

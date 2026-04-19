@@ -144,4 +144,3 @@ docker rm <container_id>
 # イメージを削除
 docker rmi session3-hello
 ```
-
