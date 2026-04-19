@@ -1,0 +1,14 @@
+*①成果の内容*
+SKILL.mdの改修を目的に、引数処理・出力管理・Slack連携の各フローを整理したOutputスキルを作成しました。引数による処理分岐の導入、出力ファイルのディレクトリ管理への変更、Slack mrkdwn変換ルールの明確化を行い、柔軟性と保守性を向上させました。
+
+*②成果物のURL/見てわかるもの*
+URL: <https://github.com/kawafuchieirin/regular-study/pull/33|https://github.com/kawafuchieirin/regular-study/pull/33>
+
+*③スクール受講開始前の状態*
+python入門を少しだけみたことがある程度
+
+*④スクール受講から何時間でどのくらいの期間でできたのか*
+スクール受講開始から3ヶ月で合計70時間
+
+*⑤成果物の作成にあたりスクールを通して学べたこと*
+ファイル設計の考え方
