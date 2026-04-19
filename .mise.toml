@@ -1,0 +1,9 @@
+[settings]
+experimental = true
+
+[tools]
+python = "3.14"
+pre-commit = "latest"
+
+[hooks]
+postinstall = "pre-commit install"
